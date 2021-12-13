@@ -1,14 +1,12 @@
-import { library } from '@fortawesome/fontawesome-svg-core'
 import { isIOS } from 'react-device-detect';
-import { faCreditCard,faDice, faCommentAlt, faMoneyBillWave, faNewspaper, faWrench, faExchangeAlt, faStore  } from '@fortawesome/free-solid-svg-icons'
-library.add(faCreditCard, faDice, faCommentAlt, faMoneyBillWave, faNewspaper, faWrench, faExchangeAlt, faStore)
+
 
 const categories =  [
     {
-        name: 'Decentralized finance',
+        name: 'Borrow and supply',
         displayIos: false,
-        icon: 'money-bill-wave',
-        color: '#5cd879',
+        icon: './images/categories/profits.svg',
+        color: '#E5F7DB',
         dapps: [
             {
                 name: 'Compound',
@@ -91,10 +89,10 @@ const categories =  [
         ],
     },
     {
-        name: 'Decentralized exchanges',
+        name: 'Exchange',
         displayIos: false,
-        icon: 'exchange-alt',
-        color: '#bbb9f3',
+        icon: './images/categories/arrows.svg',
+        color: '#D8F7F7',
         dapps: [
             {
                 name: 'Uniswap',
@@ -159,10 +157,10 @@ const categories =  [
         ]   
     },
     {
-        name: 'Art & collectibles',
+        name: 'Art and collectibles',
         displayIos: false,
-        icon: 'store',
-        color: '#F29D62',
+        icon: './images/categories/art.svg',
+        color: '#FFDAC6',
         dapps: [
             {
                 name: 'miime',
@@ -275,10 +273,10 @@ const categories =  [
         ]   
     },
     {
-        name: 'Earn crypto',
+        name: 'Get crypto',
         displayIos: false,
-        icon: 'credit-card',
-        color: '#1098FC',
+        icon: './images/categories/crypto.svg',
+        color: '#DAE5FF',
         dapps: [
             {
                 name: 'Gitcoin',
@@ -309,8 +307,8 @@ const categories =  [
     {
         name: 'Developer tools',
         displayIos: false,
-        icon: 'wrench',
-        color: '#838c96',
+        icon: './images/categories/settings.svg',
+        color: '#DFE3E9',
         dapps: [
             {
                 name: 'Chainlist',
@@ -345,10 +343,10 @@ const categories =  [
         ]   
     },
     {
-        name: 'Social',
+        name: 'Social communities',
         displayIos: false,
-        icon: 'comment-alt',
-        color: '#F8CD45',
+        icon: './images/categories/chat.svg',
+        color: '#FFEDBE',
         dapps: [
             {
                 name: '3Box',
@@ -379,8 +377,8 @@ const categories =  [
     {
         name: 'Markets',
         displayIos: false,
-        icon: 'newspaper',
-        color: '#FF849A',
+        icon: './images/categories/shop.svg',
+        color: '#DEEFFF',
         dapps: [
             {
                 name: 'Popula',
