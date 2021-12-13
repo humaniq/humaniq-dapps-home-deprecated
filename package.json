@@ -2,7 +2,7 @@
   "name": "@humaniq/dapps",
   "homepage": "https://humaniq.github.io/humaniq-dapps-home",
   "license": "ISC",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "resolutions": {
     "**/optimist/minimist": "^1.2.5",
