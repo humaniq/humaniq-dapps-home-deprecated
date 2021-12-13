@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ddff2ce47f0290e6d21151906ae2c35a",
+    "revision": "f9fa13e6b62866c033b79648cd4bdc81",
     "url": "/humaniq-dapps-home/index.html"
   },
   {
-    "revision": "9334141768168c3a9fda",
+    "revision": "9fa910793ea5db52f1bd",
     "url": "/humaniq-dapps-home/static/css/main.09fa9a86.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/humaniq-dapps-home/static/js/2.11ba8479.chunk.js"
   },
   {
-    "revision": "9334141768168c3a9fda",
-    "url": "/humaniq-dapps-home/static/js/main.fab3ea01.chunk.js"
+    "revision": "9fa910793ea5db52f1bd",
+    "url": "/humaniq-dapps-home/static/js/main.6d3c1f4e.chunk.js"
   },
   {
     "revision": "7c681f36a052da7cefc4",
