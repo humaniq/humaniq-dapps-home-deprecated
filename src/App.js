@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Route, HashRouter } from "react-router-dom";
 import { AnimatedRoute } from 'react-router-transition';
 import Home from './pages/Home';
 import Category from './pages/Category';
@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <ScrollToTop>
         <div className="App">
           <Route exact path="/" component={Home} />
@@ -26,7 +26,7 @@ function App() {
           </div>
         </div>
       </ScrollToTop>
-    </Router>
+    </HashRouter>
   );
 }
 
