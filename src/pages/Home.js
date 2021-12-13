@@ -49,7 +49,7 @@ export default class Home extends Component {
                         <Favorites />
                     </div>
                 </Tabs>
-                {isMobile.any() ? <TakeATour /> : ''}
+                {/*{isMobile.any() ? <TakeATour /> : ''}*/}
             </div>
         );
     }
