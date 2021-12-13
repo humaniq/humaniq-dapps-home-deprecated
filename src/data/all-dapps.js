@@ -311,12 +311,6 @@ const categories =  [
         color: '#DFE3E9',
         dapps: [
             {
-                name: 'Chainlist',
-                url: 'https://chainlist.org/',
-                description: 'A site for adding additional blockchains to your wallet',
-                icon: './images/dapps/chainlist.png'
-            },
-            {
                 name: 'Ethereum Name Service',
                 url: 'https://app.ens.domains/',
                 description: 'Have one name for all your cryptocurrency wallets, a decentralised website, & more',
