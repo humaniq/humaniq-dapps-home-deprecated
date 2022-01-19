@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6d2f6bce0b982252eb3ced06df3dc42",
+    "revision": "bed2ec25e33ecaa3e3c12bbbbc4c2279",
     "url": "/humaniq-dapps-home/index.html"
   },
   {
-    "revision": "073577751f2809cec94c",
-    "url": "/humaniq-dapps-home/static/css/main.09fa9a86.chunk.css"
+    "revision": "684148bbbf17ed56c2ac",
+    "url": "/humaniq-dapps-home/static/css/main.282dbbcb.chunk.css"
   },
   {
-    "revision": "389d1500eb8f2d9ce450",
-    "url": "/humaniq-dapps-home/static/js/2.11ba8479.chunk.js"
+    "revision": "91bed5cc758141dea872",
+    "url": "/humaniq-dapps-home/static/js/2.7607d518.chunk.js"
   },
   {
-    "revision": "073577751f2809cec94c",
-    "url": "/humaniq-dapps-home/static/js/main.793240d0.chunk.js"
+    "revision": "684148bbbf17ed56c2ac",
+    "url": "/humaniq-dapps-home/static/js/main.53673bbe.chunk.js"
   },
   {
     "revision": "7c681f36a052da7cefc4",
     "url": "/humaniq-dapps-home/static/js/runtime~main.747176e3.js"
+  },
+  {
+    "revision": "792172947e37e3ac75b4f1a0cdea914b",
+    "url": "/humaniq-dapps-home/static/media/arrow-down.79217294.svg"
   },
   {
     "revision": "6172a9b9cb7a452e162f503d8f5cc5ed",
