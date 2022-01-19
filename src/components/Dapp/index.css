@@ -72,6 +72,7 @@
 }
 
 .arrow {
+    cursor: pointer;
     width: 12px;
     transform: rotate(180deg);
     padding: 20px;

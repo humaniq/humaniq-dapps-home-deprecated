@@ -39,7 +39,6 @@ export default class Dapp extends Component {
         return (
             <div
                 className={'dapp'}
-                onClick={() => this.setState({isOpen: !this.state.isOpen})}
             >
                 <div className={"column"}>
                     <img
@@ -52,8 +51,7 @@ export default class Dapp extends Component {
                     <div className={"dapp-row"}>
                         <div className='dapp-content'>
                             <p className={`dapp-name ${size === 'small' ? 'dapp-name-small' : ''}`}>{name}</p>
-
-                            <span className={'dapp-url'} onClick={() => window.location = url}>{url}</span>
+                            <a href={url} className={'dapp-url'}>{url}</a>
                         </div>
                         {closable && (
                             <button
@@ -72,7 +70,7 @@ export default class Dapp extends Component {
                         </Collapse>
                     </div>
                 </div>
-                <div className={"column"}>
+                <div className={"column"} onClick={() => this.setState({isOpen: !this.state.isOpen})}>
                     <img src={arrowIcon} className={`arrow ${this.state.isOpen ? "rotate" : ""}`}/>
                 </div>
             </div>
