@@ -3,15 +3,14 @@
 
 .dapp{
     display: flex;
+    flex: 1;
     margin-bottom: 15px;
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 10px;
     padding-bottom: 10px;
     background: #FFFFFF;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
-    flex-direction: row;
 }
 
 .dapp:active{
@@ -20,11 +19,31 @@
 
 .dapp-logo {
     margin-top: 2px;
-    width: auto;
+    width: 48px;
     min-width: 48px;
-    height: 48px;
+    height: auto;
     border-radius: 9px;
     margin-right: 16px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.dapp-row {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.grow {
+    flex: 1
+}
+
+.around {
+    flex: 1;
+    justify-content: space-around;
 }
 
 .dapp-logo-small{
@@ -34,8 +53,8 @@
 
 .dapp-name {
     font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: bold;
     line-height: 25px;
     align-items: center;
     color: #24292E;
@@ -50,6 +69,16 @@
 .dapp-name-small {
     font-size: 16px;
     line-height: 22px;
+}
+
+.arrow {
+    width: 12px;
+    transform: rotate(180deg);
+    padding: 20px;
+}
+
+.rotate {
+    transform: rotate(0deg);
 }
 
 .dapp-desc {
@@ -74,7 +103,7 @@
     font-size: 12px;
     line-height: 17px;
     text-align: left;
-    color: #037DD6;
+    color: #0066DA;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;

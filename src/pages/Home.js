@@ -41,14 +41,17 @@ export default class Home extends Component {
                 <Header />
                 <Autocomplete />
                 {/* <FeaturedDappsCarousel /> */}
-                <Tabs>
-                    <div label="Explore sites" hide={isIOS}>
-                        <ExploreDapps />
-                    </div>
-                    <div label="Favorites">
-                        <Favorites />
-                    </div>
-                </Tabs>
+                <div label="Explore sites" className={"tab-content"}>
+                    <ExploreDapps />
+                </div>
+                {/*<Tabs>*/}
+                {/*    <div label="Explore sites" hide={isIOS}>*/}
+                {/*        <ExploreDapps />*/}
+                {/*    </div>*/}
+                {/*    <div label="Favorites">*/}
+                {/*        <Favorites />*/}
+                {/*    </div>*/}
+                {/*</Tabs>*/}
                 {/*{isMobile.any() ? <TakeATour /> : ''}*/}
             </div>
         );

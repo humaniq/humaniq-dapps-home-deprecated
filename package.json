@@ -13,6 +13,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "react": "^16.8.6",
+    "react-collapse": "^5.1.1",
     "react-device-detect": "^1.17.0",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",

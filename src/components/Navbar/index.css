@@ -1,5 +1,4 @@
 .navbar {
-    background-color: #ffffff;
     display: flex;
     flex: 1;
     flex-direction: row;
@@ -15,11 +14,11 @@
 }
 
 .navbar h1{
+    font-weight: 600;
     margin-top: 18px;
     display: flex;
     flex: 1;
     font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 25px;
     align-items: center;

@@ -41,7 +41,7 @@ export default class Autocomplete extends Component {
                 <input
                     autoCapitalize="none"
                     type={'text'} 
-                    placeholder={'Search or Type URL'} 
+                    placeholder={'Search or type web address'}
                     className={'autocomplete-input'}
                     value={this.state.value}
                     onChange={this.handleChange} 
