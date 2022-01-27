@@ -7,6 +7,7 @@ const categories =  [
         displayIos: false,
         icon: './images/categories/profits.svg',
         color: '#E5F7DB',
+        iconColor: '#A1D186',
         dapps: [
             {
                 name: 'Compound',
@@ -93,6 +94,7 @@ const categories =  [
         displayIos: false,
         icon: './images/categories/arrows.svg',
         color: '#D8F7F7',
+        iconColor: '#76D3DF',
         dapps: [
             {
                 name: 'Uniswap',
@@ -161,6 +163,7 @@ const categories =  [
         displayIos: false,
         icon: './images/categories/art.svg',
         color: '#FFDAC6',
+        iconColor: '#FFB68E',
         dapps: [
             {
                 name: 'miime',
@@ -277,6 +280,7 @@ const categories =  [
         displayIos: false,
         icon: './images/categories/crypto.svg',
         color: '#DAE5FF',
+        iconColor: '#8CAAF0',
         dapps: [
             {
                 name: 'Gitcoin',
@@ -309,6 +313,7 @@ const categories =  [
         displayIos: false,
         icon: './images/categories/settings.svg',
         color: '#DFE3E9',
+        iconColor: '#ADB6C3',
         dapps: [
             {
                 name: 'Ethereum Name Service',
@@ -341,6 +346,7 @@ const categories =  [
         displayIos: false,
         icon: './images/categories/chat.svg',
         color: '#FFEDBE',
+        iconColor: '#FFD361',
         dapps: [
             {
                 name: '3Box',
@@ -373,6 +379,7 @@ const categories =  [
         displayIos: false,
         icon: './images/categories/shop.svg',
         color: '#DEEFFF',
+        iconColor: '#8BBBE7',
         dapps: [
             {
                 name: 'Popula',

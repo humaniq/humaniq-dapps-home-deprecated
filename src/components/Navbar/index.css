@@ -14,15 +14,13 @@
 }
 
 .navbar h1{
-    font-weight: 600;
+    color: #001833;
+    font-weight: 500;
     margin-top: 18px;
     display: flex;
     flex: 1;
     font-style: normal;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 25px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #000000;
+    padding-left: 100px;
 }

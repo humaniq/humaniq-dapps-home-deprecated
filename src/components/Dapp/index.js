@@ -25,7 +25,10 @@ export default class Dapp extends Component {
     }
 
     renderDescription = (description) => {
-        return description && (<p className={'dapp-desc'}>{description}</p>)
+        return description && (<div>
+            {/*<div className={ 'dapp-border' }/>*/}
+            <p className={'dapp-desc'}>{description}</p>
+        </div>)
     }
 
     onClose = (e) => {
@@ -47,7 +50,7 @@ export default class Dapp extends Component {
                         alt={`${name} logo`}
                     />
                 </div>
-                <div className={"column grow"}>
+                <div className={"column grow"} onClick={() => window.location = url}>
                     <div className={"dapp-row"}>
                         <div className='dapp-content'>
                             <p className={`dapp-name ${size === 'small' ? 'dapp-name-small' : ''}`}>{name}</p>
@@ -71,7 +74,7 @@ export default class Dapp extends Component {
                     </div>
                 </div>
                 <div className={"column"} onClick={() => this.setState({isOpen: !this.state.isOpen})}>
-                    <img src={arrowIcon} className={`arrow ${this.state.isOpen ? "rotate" : ""}`}/>
+                    <img src={arrowIcon} className={`arrow ${!this.state.isOpen ? "rotate" : ""}`}/>
                 </div>
             </div>
         );

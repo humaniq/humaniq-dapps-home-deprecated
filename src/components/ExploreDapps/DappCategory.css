@@ -8,17 +8,32 @@
 }
 
 .dapp-category{
+    position: relative;
     display: flex;
-    flex: 1;
-    height: 64px;
-    background: #FFFFFF;
+    flex: 1 1;
     border-radius: 8px;
     text-align: center;
-    align-items: center;
+    align-items: flex-start;
     min-width: 150px;
     margin: 7px;
-    padding-left: 15px;
-    padding-right: 8px;
+    padding: 15px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.dapp-category-image-container {
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.dapp-category-counter {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #9B9B9B;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .dapp-category:nth-child(even) {
@@ -36,10 +51,10 @@
     font-family: 'Roboto', sans-serif;
     display: flex;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     color: #001833;
-    padding: 8px;
+    padding-top: 10px;
     text-align: left;
 }
 

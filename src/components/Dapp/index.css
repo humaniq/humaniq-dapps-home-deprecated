@@ -32,13 +32,13 @@
 }
 
 .dapp-row {
-    display: flex;
     flex-direction: row;
-    flex: 1;
+    flex: 1 1;
 }
 
 .grow {
-    flex: 1
+    flex: 1;
+    cursor: pointer;
 }
 
 .around {
@@ -54,7 +54,7 @@
 .dapp-name {
     font-style: normal;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 25px;
     align-items: center;
     color: #24292E;
@@ -75,14 +75,21 @@
     cursor: pointer;
     width: 12px;
     transform: rotate(180deg);
-    padding: 20px;
+    padding: 20px 20px 20px 0;
 }
 
 .rotate {
     transform: rotate(0deg);
+    padding: 20px 0 20px 20px;
+
+}
+
+.dapp-border {
+    border-bottom: 1px solid #9B9B9B;
 }
 
 .dapp-desc {
+    padding-top: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
     font-style: normal;
@@ -90,7 +97,7 @@
     font-size: 12px;
     line-height: 17px;
     text-align: left;
-    color: #6A737D;
+    color: #9B9B9B;
 }
 
 .dapp-content {
