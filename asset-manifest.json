@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/humaniq-dapps-home/static/css/main.e61cab3e.chunk.css",
-    "main.js": "/humaniq-dapps-home/static/js/main.d6ea7889.chunk.js",
-    "main.js.map": "/humaniq-dapps-home/static/js/main.d6ea7889.chunk.js.map",
+    "main.css": "/humaniq-dapps-home/static/css/main.0d442645.chunk.css",
+    "main.js": "/humaniq-dapps-home/static/js/main.75ee244d.chunk.js",
+    "main.js.map": "/humaniq-dapps-home/static/js/main.75ee244d.chunk.js.map",
     "runtime~main.js": "/humaniq-dapps-home/static/js/runtime~main.747176e3.js",
     "runtime~main.js.map": "/humaniq-dapps-home/static/js/runtime~main.747176e3.js.map",
     "static/js/2.7607d518.chunk.js": "/humaniq-dapps-home/static/js/2.7607d518.chunk.js",
     "static/js/2.7607d518.chunk.js.map": "/humaniq-dapps-home/static/js/2.7607d518.chunk.js.map",
     "index.html": "/humaniq-dapps-home/index.html",
-    "precache-manifest.4e88a7572b25d40c1418e7be8fff1910.js": "/humaniq-dapps-home/precache-manifest.4e88a7572b25d40c1418e7be8fff1910.js",
+    "precache-manifest.846d77f2244464f715d940b026a4c804.js": "/humaniq-dapps-home/precache-manifest.846d77f2244464f715d940b026a4c804.js",
     "service-worker.js": "/humaniq-dapps-home/service-worker.js",
-    "static/css/main.e61cab3e.chunk.css.map": "/humaniq-dapps-home/static/css/main.e61cab3e.chunk.css.map",
-    "static/media/arrow-down.svg": "/humaniq-dapps-home/static/media/arrow-down.79217294.svg",
-    "static/media/back-icon.svg": "/humaniq-dapps-home/static/media/back-icon.6172a9b9.svg",
-    "static/media/close-icon.svg": "/humaniq-dapps-home/static/media/close-icon.59df06f1.svg",
-    "static/media/logo-wordmark.svg": "/humaniq-dapps-home/static/media/logo-wordmark.2145b025.svg",
-    "static/media/logo.svg": "/humaniq-dapps-home/static/media/logo.7bef3eb6.svg"
+    "static/css/main.0d442645.chunk.css.map": "/humaniq-dapps-home/static/css/main.0d442645.chunk.css.map",
+    "static/media/arrow-down.svg": "/humaniq-dapps-home/static/media/arrow-down.a0eddf0e.svg",
+    "static/media/back-icon.svg": "/humaniq-dapps-home/static/media/back-icon.79bb2c6d.svg",
+    "static/media/close-icon.svg": "/humaniq-dapps-home/static/media/close-icon.3fcc47fb.svg",
+    "static/media/logo-wordmark.svg": "/humaniq-dapps-home/static/media/logo-wordmark.9a52e018.svg",
+    "static/media/logo.svg": "/humaniq-dapps-home/static/media/logo.d0e2d96d.svg"
   }
 }
