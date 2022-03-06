@@ -3,24 +3,24 @@
     flex: 1;
     flex-direction: row;
     margin-bottom: 15px;
-}
-.navbar-back {
-    position: absolute;
-    margin: 16px;
-    border: 0px;
-    background-color: transparent;
+    align-items: center;
     padding-top: 5px;
-    padding-bottom: 5px;
 }
 
-.navbar h1{
+.navbar-back {
+    margin: 16px 36px 16px 20px;
+    border: 0;
+    background-color: transparent;
+    align-self: center;
+    padding-top: 3px;
+}
+
+.navbar h1 {
     color: #001833;
     font-weight: 500;
-    margin-top: 18px;
     display: flex;
     flex: 1;
     font-style: normal;
     font-size: 20px;
     line-height: 25px;
-    padding-left: 100px;
 }
