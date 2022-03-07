@@ -13,9 +13,8 @@ export default class DappCategory extends Component {
 
     render() {
         const {name, icon, color, iconColor, dapps} = this.props.data;
-
         const url = `/${name.toLowerCase().replace(" ", "-")}`;
-        console.log('url', url)
+
         return (
             // eslint-disable-next-line jsx-a11y/anchor-is-valid
             <Link
