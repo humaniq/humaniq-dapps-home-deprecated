@@ -13,8 +13,8 @@ export default class DappCategory extends Component {
 
     render() {
         const {name, icon, color, iconColor, dapps} = this.props.data;
-
         const url = `/${name.toLowerCase().replace(" ", "-")}`;
+
         return (
             // eslint-disable-next-line jsx-a11y/anchor-is-valid
             <Link
@@ -35,7 +35,7 @@ export default class DappCategory extends Component {
                         </div>
                     </div>
                     <span className={'dapp-category-name'}>{name}</span>
-                    <span className={'dapp-category-counter'}>{dapps.length}</span>
+                    {/*<span className={'dapp-category-counter'}>{dapps.length}</span>*/}
                 </div>
             </Link>
         );
