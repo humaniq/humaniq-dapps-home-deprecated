@@ -12,7 +12,7 @@ export default class DappCategory extends Component {
     }
 
     render() {
-        const {name, icon, color, iconColor, dapps} = this.props.data;
+        const {name, icon} = this.props.data;
         const url = `/${name.toLowerCase().replace(" ", "-")}`;
 
         return (
@@ -22,11 +22,10 @@ export default class DappCategory extends Component {
                 to={url}
                 onClick={this.trackEventOpenDappCategory}
             >
-                <div className={'dapp-category'}
-                     style={{background: color}}>
+                <div className={'dapp-category'}>
                     <div className={'dapp-category-image-container'}>
                         <div style={{
-                            backgroundColor: iconColor,
+                            backgroundColor: "#0066DA",
                             "-webkit-mask": `url(${icon}) no-repeat center / contain`,
                             mask: `url(${icon}) no-repeat center / contain`,
                             width: 20,
@@ -35,7 +34,6 @@ export default class DappCategory extends Component {
                         </div>
                     </div>
                     <span className={'dapp-category-name'}>{name}</span>
-                    {/*<span className={'dapp-category-counter'}>{dapps.length}</span>*/}
                 </div>
             </Link>
         );

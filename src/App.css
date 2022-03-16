@@ -1,4 +1,3 @@
-
 body {
   background-color: #F5FAFF;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -58,5 +57,4 @@ button:active {
     width: 136px;
     min-width: 0%;
   }
-
 }
