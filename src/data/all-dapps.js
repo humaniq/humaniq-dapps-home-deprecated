@@ -1,7 +1,22 @@
-import { isIOS } from 'react-device-detect';
+import {isIOS} from 'react-device-detect';
 
 
-const categories =  [
+const categories = [
+    {
+        name: "ID services",
+        displayIos: false,
+        icon: "./images/categories/human.svg",
+        color: '#E5F7DB',
+        iconColor: '#A1D186',
+        dapps: [
+            {
+                name: 'Humaniq ID',
+                url: "https://idapp.humaniq.com",
+                description: "Humaniq identity service",
+                icon: "./images/dapps/humaniq.svg"
+            }
+        ]
+    },
     {
         name: 'Borrow and supply',
         displayIos: false,
@@ -156,7 +171,7 @@ const categories =  [
                 description: 'Simple crypto trading for everyone',
                 icon: './images/dapps/matcha.png'
             },
-        ]   
+        ]
     },
     {
         name: 'Art and collectibles',
@@ -171,7 +186,7 @@ const categories =  [
                 description: 'miime is an NFT marketplace catering to blockchain gamers in Japan and across the world',
                 icon: './images/dapps/miime.png'
             },
-              {
+            {
                 name: 'Mintable',
                 url: 'https://mintable.app',
                 description: 'Mintable is a next generation NFT marketplace, the easiest place to trade NFTs and create your own.',
@@ -193,7 +208,7 @@ const categories =  [
                 name: 'Mintbase',
                 url: 'https://mintbase.io',
                 description: 'Leading non-fungible token creation tool and marketplace',
-                icon: './images/dapps/mintbase.png'  
+                icon: './images/dapps/mintbase.png'
             },
             {
                 name: 'Axie Infinity',
@@ -255,7 +270,7 @@ const categories =  [
                 description: 'Use heroes in turn-based quests and battles.',
                 icon: './images/dapps/brave_frontier_heroes.png'
             },
-           {
+            {
                 name: 'Blockchain Cuties',
                 url: 'https://blockchaincuties.com/',
                 description: 'Cuties are cats, dogs, and bears that go on adventures.',
@@ -273,7 +288,7 @@ const categories =  [
                 description: 'Collect land and build a blockchain city.',
                 icon: './images/dapps/megacryptopolis.png'
             },
-        ]   
+        ]
     },
     {
         name: 'Get crypto',
@@ -305,7 +320,7 @@ const categories =  [
                 url: 'https://mirror.xyz',
                 description: 'Mirror—a crypto native creative suite, with crowdfunding & publishing tools for creators. ',
                 icon: './images/dapps/mirror.png'
-             },
+            },
         ],
     },
     {
@@ -339,7 +354,7 @@ const categories =  [
                 description: 'Smart contract security service for Ethereum',
                 icon: './images/dapps/mythx.png'
             },
-        ]   
+        ]
     },
     {
         name: 'Social communities',
@@ -416,6 +431,6 @@ const categories =  [
 ];
 
 // hide any of the above on iOS when displayIos is false
-const filtered = categories.filter(({ displayIos = true }) => !(isIOS && !displayIos));
+const filtered = categories
 
 export default filtered;

@@ -5,10 +5,7 @@
     display: flex;
     flex: 1;
     margin-bottom: 15px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 16px 10px 8px;
     background: #FFFFFF;
     border-radius: 8px;
 }
