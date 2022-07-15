@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/humaniq-dapps-home/static/css/main.0d217ce4.chunk.css",
-    "main.js": "/humaniq-dapps-home/static/js/main.11c6743e.chunk.js",
-    "main.js.map": "/humaniq-dapps-home/static/js/main.11c6743e.chunk.js.map",
+    "main.js": "/humaniq-dapps-home/static/js/main.3d0829a1.chunk.js",
+    "main.js.map": "/humaniq-dapps-home/static/js/main.3d0829a1.chunk.js.map",
     "runtime~main.js": "/humaniq-dapps-home/static/js/runtime~main.747176e3.js",
     "runtime~main.js.map": "/humaniq-dapps-home/static/js/runtime~main.747176e3.js.map",
     "static/js/2.0c4e417c.chunk.js": "/humaniq-dapps-home/static/js/2.0c4e417c.chunk.js",
     "static/js/2.0c4e417c.chunk.js.map": "/humaniq-dapps-home/static/js/2.0c4e417c.chunk.js.map",
     "index.html": "/humaniq-dapps-home/index.html",
-    "precache-manifest.4b1a5b27933d74531739dcdf09651b0c.js": "/humaniq-dapps-home/precache-manifest.4b1a5b27933d74531739dcdf09651b0c.js",
+    "precache-manifest.8b236f8cbc1a516397fa6c7dabc1571a.js": "/humaniq-dapps-home/precache-manifest.8b236f8cbc1a516397fa6c7dabc1571a.js",
     "service-worker.js": "/humaniq-dapps-home/service-worker.js",
     "static/css/main.0d217ce4.chunk.css.map": "/humaniq-dapps-home/static/css/main.0d217ce4.chunk.css.map",
     "static/media/arrow-down.svg": "/humaniq-dapps-home/static/media/arrow-down.79217294.svg",

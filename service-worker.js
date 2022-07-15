@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/humaniq-dapps-home/precache-manifest.4b1a5b27933d74531739dcdf09651b0c.js"
+  "/humaniq-dapps-home/precache-manifest.8b236f8cbc1a516397fa6c7dabc1571a.js"
 );
 
 self.addEventListener('message', (event) => {
