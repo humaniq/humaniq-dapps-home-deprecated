@@ -3,7 +3,7 @@ import {isIOS} from 'react-device-detect';
 
 const categories = [
     {
-        name: "ID services",
+        name: "Humaniq services",
         displayIos: false,
         icon: "./images/categories/human.svg",
         color: '#E5F7DB',
@@ -14,6 +14,12 @@ const categories = [
                 url: "https://idapp.humaniq.com",
                 description: "Humaniq identity service",
                 icon: "./images/dapps/humaniq.svg"
+            },
+            {
+                name: '$1 for lunch',
+                url: "https://getlunch.humaniq.com/",
+                description: "Donation service for lunches",
+                icon: "./images/dapps/one-dollar-for-lunch.svg"
             }
         ]
     },
